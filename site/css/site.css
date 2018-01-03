@@ -1,0 +1,188 @@
+/* https://coolors.co/384d48-6e7271-acad94-d8d4d5-e2e2e2 */
+
+body {
+  background-color: #384d48;
+  color: #e2e2e2;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+a {
+  color: #d8d4d5;
+}
+
+.content {
+  background-color: #e2e2e2;
+  color: #384d48;
+  padding-top: 80px;
+}
+
+
+.content a {
+  /* padding: 5px; */
+  color: #384d48;
+}
+
+
+.title {
+  font-size: 48pt;
+  width: 100%;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 24pt;
+}
+
+
+.about {
+  padding: 10px;
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+  max-width: 800px;
+}
+
+.about h1 {
+  font-size: 14pt;
+}
+
+/* search */
+
+.searchbar {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #d8d4d5;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #d8d4d5;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #d8d4d5;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #d8d4d5;
+}
+
+
+.searchbar input {
+  font-size: 18pt;
+  width: 50%;
+}
+
+.buttons {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+button {
+  font-size: 14pt;
+  background-color: #384d48;
+  border: 0px;
+  margin-right: 15px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 25px;
+  color: #e2e2e2;
+  cursor: pointer;v
+}
+
+.buttons button:hover {
+  background-color: #6e7271;
+}
+
+/* resulst page */
+
+#results {
+  width: 95%;
+  padding: 20px;
+  text-align: center;
+  margin: auto;
+}
+
+#results table {
+  padding: 10px;
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+#results table td {
+  padding: 5px;
+  font-family: monospace;
+  text-align: left;
+}
+
+#results table th {
+  padding: 0 5px;
+  text-align: left;
+}
+
+#no-results {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+  max-width: 800px;
+}
+
+.error-message {
+  width: 70%;
+  margin: auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  max-width: 800px;
+}
+
+.searched-class {4
+  font-family: monospace;
+}
+
+#search-again {
+  text-align: center;
+  width: 100%;
+}
+
+/* add page */
+
+#add {
+  width: 100%;
+}
+
+#add form {
+  margin: 30px auto 0 auto;
+  width: 70%;
+  padding-bottom: 30px;
+  max-width: 800px;
+}
+
+#add label {
+  font-weight: bold;
+  display: block;
+  padding-bottom: 5px;
+}
+
+#add input {
+  width: 100%;
+}
+
+#add button {
+  margin-top: 15px;
+}
+
+/* add results page */
+
+#added-results {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0px;
+  max-width: 800px;
+}
+
+#added-results .num-classes {
+  font-weight: bold;
+}

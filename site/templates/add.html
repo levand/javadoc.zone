@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+
+  {{> partial/head this}}
+
+<body>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+       <script src="js/scripts.js"></script> -->
+
+  <div class="content">
+
+    <div class="title">
+      javadoc.zone
+      <div class="subtitle">
+        Register a new Javadoc host
+      </div>
+    </div>
+
+    <div id="add">
+      <form class="fields" action="add" method="post">
+        <div>
+          <p>The Repository URL is the base URL of the Javadoc host you want to register. It may refer either to the <span class="fileref">index.html</span> file at the root of the Javadoc repository, or to the repository directory itself. For example, both of the following are valid repository URLs:</p>
+          <ul>
+            <li>https://google.github.io/guava/releases/19.0/api/docs/</li>
+            <li>https://google.github.io/guava/releases/19.0/api/docs/index.html</li>
+          </ul>
+          <label for="host">Repository URL:</label>
+          <input id="host" name="host"></input>
+        </div>
+
+        <div>
+          <p>The version of the library to which the Javadoc repository refers. For libraries delivered via a public Maven repository, this must be the Maven version string.</p>
+          <label for="version">Version:</label>
+          <input id="version" name="version"></input>
+        </div>
+
+        <div>
+          <p>The maven artifact coordinates for the library to which this Javadoc repository refers. May be left blank if the relevant library is not delivered through a public Maven repository. Examples:</p>
+          <ul>
+            <li>com.google.guava/guava</li>
+            <li>org.apache.commons/commons-math3</li>
+          </ul>
+          <label for="artifact">Maven Artifact:</label>
+          <input id="artifact" name="artifact"></input>
+        </div>
+
+        <button id="submit" type="submit">Submit</button>
+
+      </form>
+    </div>
+
+
+  </div>
+
+  {{> partial/footer this}}
+
+</body>
+
+</html>

@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+
+  {{> partial/head this}}
+
+
+<body>
+  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+       <script src="js/scripts.js"></script> -->
+
+  <div class="content">
+
+    <div class="title">
+      javadoc.zone
+      <div class="subtitle">
+        search results
+      </div>
+    </div>
+
+    {{#if results}}
+    <div id="results">
+      <table>
+        <tr>
+          <th>Javadoc URL</th>
+          <th>Version</th>
+          <th>Maven Artifact</th>
+        </tr>
+        {{#each results}}
+        <tr>
+          <td><a href="{{this.url}}">{{this.url}}</a></td>
+          <td>{{this.version}}</td>
+          <td>{{this.artifact}}</td>
+        </tr>
+        {{/each}}
+      </table>
+      <a href="index">Search Again</a>
+      <a href="add">Add Repository</a>
+    </div>
+    {{else}}
+      <div id="no-results">
+      <p>No results found for <span class="searched-class">{{missing}}</span>. If you know where Javadocs for this class are hosted, please <a href="{{paths.add}}">add them to the index</a> so they can be returned on future searches.</p>
+      <div id="search-again"><a href="{{paths.index}}">Search Again</a></div>
+    </div>
+    {{/if}}
+
+  </div>
+
+  {{> partial/footer this}}
+
+</body>

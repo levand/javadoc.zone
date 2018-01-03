@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+  {{> partial/head this}}
+
+<body>
+  <div class="content">
+
+    <div class="title">
+      javadoc.zone
+      <div class="subtitle">
+        Javadoc registry and search tool
+      </div>
+    </div>
+
+    <div id="search">
+      <form action="search" method="get">
+        <div class="searchbar">
+          <input name="q" id="q" placeholder="type a class name (e.g, java.util.HashMap)"></input>
+        </div>
+        <div class="buttons">
+          <button id="submit" type="submit" title="Display all search results">Search</button>
+          <button id="go" title="Go directly to the most likely result">Go</button>
+          <script>
+            document.getElementById("go").onclick = function(evt) {
+            evt.preventDefault();
+              var p = window.location.pathname;
+              p = p.substr(0, p.lastIndexOf("/"));
+              window.location.pathname = p + "/go/" + document.getElementById("q").value;
+              return false;
+            };
+          </script>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+ {{> partial/footer this}}
+
+</body>
+
+</html>

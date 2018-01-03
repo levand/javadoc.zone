@@ -1,0 +1,14 @@
+{
+    "name": "jdz-site",
+    "version": "1.0.0",
+    "description": "Static portion of the javadoc.zone service",
+    "main": "build.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Luke VanderHart",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "handlebars-generator": "3.1.1"
+    }
+}

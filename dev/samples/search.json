@@ -1,0 +1,55 @@
+{
+  "resource": "/search",
+  "path": "/search",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "text/html",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "x275a6wbt6.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/7.54.0",
+    "Via": "1.1 6ac547ea4fdffc736699ded8bb83b53f.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "HuDUqvQe_RBrQf394iRyQwLIjXz3NeMkdOPD4T71jfrk7TNuUBoUYA==",
+    "X-Amzn-Trace-Id": "Root=1-5a452599-493cfbcd5c185567669838f4",
+    "X-Forwarded-For": "45.37.74.16, 54.239.145.60",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": {
+    "q": "no.such.Class"
+  },
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "requestTime": "28/Dec/2017:17:10:49 +0000",
+    "path": "/v1/search",
+    "accountId": "471263043246",
+    "protocol": "HTTP/1.1",
+    "resourceId": "ntm2me",
+    "stage": "v1",
+    "requestTimeEpoch": 1514481049849,
+    "requestId": "0d753f54-ebf2-11e7-a080-87c71e2b0b8b",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "45.37.74.16",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "curl/7.54.0",
+      "user": null
+    },
+    "resourcePath": "/search",
+    "httpMethod": "GET",
+    "apiId": "x275a6wbt6"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}

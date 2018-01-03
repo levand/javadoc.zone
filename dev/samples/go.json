@@ -1,0 +1,55 @@
+{
+  "resource": "/go/{className}",
+  "path": "/go/java.lang.String",
+  "httpMethod": "GET",
+  "headers": {
+    "Accept": "*/*",
+    "CloudFront-Forwarded-Proto": "https",
+    "CloudFront-Is-Desktop-Viewer": "true",
+    "CloudFront-Is-Mobile-Viewer": "false",
+    "CloudFront-Is-SmartTV-Viewer": "false",
+    "CloudFront-Is-Tablet-Viewer": "false",
+    "CloudFront-Viewer-Country": "US",
+    "Host": "nhk8piub36.execute-api.us-east-1.amazonaws.com",
+    "User-Agent": "curl/7.54.0",
+    "Via": "1.1 d16a5a03f4d663dbb0356928f889a8af.cloudfront.net (CloudFront)",
+    "X-Amz-Cf-Id": "UayCU43nlR_b0J4WhScgYDC5rOSIDonxvaIBbVLb2-RKfrbmAb-mUA==",
+    "X-Amzn-Trace-Id": "Root=1-5a4697e0-55c1f0ef375474a5489680cc",
+    "X-Forwarded-For": "45.37.74.16, 54.182.236.104",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": {
+    "className": "java.lang.String"
+  },
+  "stageVariables": null,
+  "requestContext": {
+    "requestTime": "29/Dec/2017:19:30:40 +0000",
+    "path": "/v1/go/java.lang.String",
+    "accountId": "471263043246",
+    "protocol": "HTTP/1.1",
+    "resourceId": "z8z1k6",
+    "stage": "v1",
+    "requestTimeEpoch": 1514575840357,
+    "requestId": "c100e9cd-ecce-11e7-8ce3-2f73d85bb684",
+    "identity": {
+      "cognitoIdentityPoolId": null,
+      "accountId": null,
+      "cognitoIdentityId": null,
+      "caller": null,
+      "sourceIp": "45.37.74.16",
+      "accessKey": null,
+      "cognitoAuthenticationType": null,
+      "cognitoAuthenticationProvider": null,
+      "userArn": null,
+      "userAgent": "curl/7.54.0",
+      "user": null
+    },
+    "resourcePath": "/go/{className}",
+    "httpMethod": "GET",
+    "apiId": "nhk8piub36"
+  },
+  "body": null,
+  "isBase64Encoded": false
+}
